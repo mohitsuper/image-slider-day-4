@@ -1,0 +1,14 @@
+.slider-container{
+    display: flex;
+    transition: ease all 0.5s;
+    overflow: hidden;
+    gap: 5px;
+}
+.silder{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex: 0 0 100%;
+    transform: translateX(0%);
+        transition: ease all 0.5s;
+}

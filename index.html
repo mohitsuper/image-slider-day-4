@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Silder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h-full w-full relative mb-10 px-10">
+        <h1 class="py-5 text-xl text-center font-semibold">Imgaes Silder</h1>
+        <button class="left bg-black text-white text-xl rounded-full p-2 px-4 absolute top-2 left-5"><</button>
+        <div class="slider-container w-full h-full">
+            <div class="silder  inline-block">
+                <img src="https://picsum.photos/1249/773?random=2" class="h-full w-full object-cover">
+            </div>
+            <div class="silder inline-block">
+                <img src="https://picsum.photos/1249/773?random=1" class="h-full w-full object-cover">
+            </div>
+            <div class="silder  inline-block">
+                <img src="https://picsum.photos/1249/773?random=3" class="h-full w-full object-cover">
+            </div>
+            <div class="silder inline-block">
+                <img src="https://picsum.photos/1249/773?random=4" class="h-full w-full object-cover">
+            </div>
+        </div>
+        <button class="right bg-black text-white text-xl rounded-full p-2 px-4 absolute top-2 left-20">></button>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
